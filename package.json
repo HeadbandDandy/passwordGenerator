@@ -1,0 +1,24 @@
+{
+  "name": "passwordgenerator",
+  "version": "1.0.0",
+  "description": "Simple password generator using JS, HTML, &amp; CSS.",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeadbandDandy/passwordGenerator.git"
+  },
+  "author": "Headband-Dandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeadbandDandy/passwordGenerator/issues"
+  },
+  "homepage": "https://github.com/HeadbandDandy/passwordGenerator#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2"
+  }
+}
